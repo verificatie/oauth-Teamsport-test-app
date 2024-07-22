@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Functie om logbestanden te lezen
+
 function getLogs() {
   const logFilePath = path.join(__dirname, '../logs/error.log');
 
