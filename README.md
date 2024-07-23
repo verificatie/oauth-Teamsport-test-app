@@ -1,5 +1,27 @@
 ## Teamsport test-app Installation
 
+## Project structure
+
+```plaintext
+project/
+├── components/
+│   ├── nav.js
+│   ├── footer.js
+│   ├── pbi.js
+│   ├── prof_data.js
+│   └── header.js
+├── api/
+│   ├── api_links.js
+│   ├── alert.js
+│   ├── css/
+│   └── img/
+├── verificatie_app/
+│   ├── oauth.js
+│   └── pbi.js
+├── index.js
+├── app.js
+└── package.json
+
 Teamsport is a test app for the OAuth (login) functionality of the Nederlandse Verificatie App.
 
 ![Alt tekst](https://raw.githubusercontent.com/verificatie/oauth-Teamsport-test-app/main/img/Teamsport-3320.png)
